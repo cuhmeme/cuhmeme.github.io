@@ -10,26 +10,75 @@
       height: 50vh;
       width: 50vw;
       transition: all 0.5s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0.75;
     }
 
     .quadrant:hover {
       transform: scale(1.1);
+      opacity: 1;
+    }
+
+    .quadrant-text {
+      transition: opacity 0.5s ease;
+      opacity: 0;
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      padding: 2rem;
+      font-weight: bold;
+    }
+
+    .quadrant:hover .quadrant-text {
+      opacity: 1;
     }
 
     #top-left { background-color: #FF0000; }
     #top-right { background-color: #FFA500; }
     #bottom-left { background-color: #008000; }
     #bottom-right { background-color: #0000FF; }
+
+    .banner-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 3rem;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .image-overlay {
+      position: absolute;
+      inset: 0;
+      background-image: url('./cuh.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
   </style>
 </head>
-<body class="flex flex-wrap">
-  <div id="top-left" class="quadrant fixed top-0 left-0"></div>
-  <div id="top-right" class="quadrant fixed top-0 right-0"></div>
-  <div id="bottom-left" class="quadrant fixed bottom-0 left-0"></div>
-  <div id="bottom-right" class="quadrant fixed bottom-0 right-0"></div>
-
-  <div class="absolute inset-0 flex justify-center items-center">
-    <img src="./cuh.png" alt="Stylized face" class="max-w-xs md:max-w-lg">
+<body class="flex flex-wrap items-stretch">
+  <div id="top-left" class="quadrant">
+    <div class="quadrant-text">21 Million Coin Supply</div>
   </div>
+  <div id="top-right" class="quadrant">
+    <div class="quadrant-text">No Premine</div>
+  </div>
+  <div id="bottom-left" class="quadrant">
+    <div class="quadrant-text">No Pre-Distribution</div>
+  </div>
+  <div id="bottom-right" class="quadrant">
+    <div class="quadrant-text">No BS</div>
+  </div>
+
+  <div class="banner-text">
+    Quema o no quema cuh???
+  </div>
+
+  <div class="image-overlay"></div>
 </body>
 </html>
