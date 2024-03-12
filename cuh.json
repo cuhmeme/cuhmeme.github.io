@@ -1,0 +1,13 @@
+{
+  "name": "CUHCOIN",
+  "symbol": "CUH",
+  "description": "CUH",
+  "image": "https://www.upload.ee/image/16364103/cuh.jpg",
+  "attributes": [
+    {
+      "trait_type": "Utility",
+      "value": "Access"
+    }
+  ],
+}
+
