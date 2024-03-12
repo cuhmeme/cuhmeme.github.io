@@ -1,7 +1,7 @@
 {
   "name": "CUHCOIN",
   "symbol": "CUH",
-  "description": "CUH",
+  "description": "Quema o no Quema???",
   "image": "https://raw.githubusercontent.com/cuhmeme/cuhmeme.github.io/main/cuh_100x100.png",
   "attributes": [
     {
@@ -9,6 +9,4 @@
       "value": "Access"
     }
   ],
-  "github": "https://github.com/cuhmeme",
-  "website": "https://cuhmeme.github.io/"
 }
