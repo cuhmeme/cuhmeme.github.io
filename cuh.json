@@ -2,7 +2,7 @@
   "name": "CUHCOIN",
   "symbol": "CUH",
   "description": "CUH",
-  "image": "https://github.com/cuhmeme/cuhmeme.github.io/blob/main/cuh_100x100.png?raw=true",
+  "image": "https://raw.githubusercontent.com/cuhmeme/cuhmeme.github.io/main/cuh_100x100.png",
   "attributes": [
     {
       "trait_type": "Utility",
