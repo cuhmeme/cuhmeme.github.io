@@ -1,21 +1,16 @@
-/* Reset some default styles and ensure the full page has a black background */
-html, body {
+body, html {
     height: 100%;
     margin: 0;
-    padding: 0;
-    background-color: black; /* Set the background color to black */
-}
-
-/* Ensure the body content is centered */
-body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Use min-height to cover at least the full viewport height */
+    flex-direction: column;
 }
 
 .container {
     text-align: center; /* Center everything in the container */
+    flex-grow: 1; /* Allows the container to grow and fill available space, pushing the footer down */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .circle-image {
@@ -23,53 +18,20 @@ body {
     height: 100px;
     border-radius: 50%;
     display: block; /* Ensure the image is a block-level element to allow margin auto to center it */
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 20px auto; /* Center the image horizontally and add some margin */
 }
 
-
-.links {
-    margin-top: 10px; /* Add some space between the image and the links */
+footer {
+    text-align: center;
+    padding: 20px 0; /* Add some padding */
+    width: 100%;
 }
 
-.links a {
-    display: block; /* Display links as block-level elements */
-    color: white; /* Ensure text color is white */
-    text-decoration: none; /* No underline */
-    margin: 10px 0; /* Space out the links */
+.footer-link {
+    color: white; /* Set the link color, adjust as needed */
+    text-decoration: none; /* Remove underline */
 }
 
-.links a {
-    color: white; /* Ensure text color is white */
-    text-decoration: none; /* No underline */
+.footer-link:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
-
-.container {
-    text-align: center; /* Center everything in the container */
-}
-
-.links span {
-    margin: 0 5px; /* Space out the links */
-    display: inline-block; /* Display links inline */
-}
-
-
-.links a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.links a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
-
