@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quema o No Quema Cuh???</title>
+  <title>Quema!</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.4/dist/tailwind.min.css" rel="stylesheet">
   <style>
     body {
@@ -64,5 +64,25 @@
       right: 0;
     }
 
-    .quadrant:hover {
-      opacity: 0
+    .quadrant:hover .quadrant-text {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .circle-image {
+    width: 30%;
+    padding-top: 30%;
+  }
+  
+  .banner-text {
+    font-size: 1.5rem;
+  }
+
+  .quadrant {
+    width: 30vw;
+  }
+
+  .quadrant-text {
+    font-size: 0.8rem;
+  }
+}
