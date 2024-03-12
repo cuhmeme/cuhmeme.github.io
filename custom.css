@@ -1,20 +1,20 @@
-/* Reset some default styles */
+/* Reset some default styles and ensure the full page has a black background */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: black; /* Set the background color to black */
 }
 
-/* Ensure the body takes up the full viewport and has a black background */
+/* Ensure the body content is centered */
 body {
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Use min-height to ensure it covers the viewport height */
+    min-height: 100vh; /* Use min-height to cover at least the full viewport height */
 }
 
-/* Style the container for additional control if needed, though it might not be necessary */
+/* Style the container for additional control if needed */
 .container {
     display: flex;
     justify-content: center;
@@ -23,8 +23,8 @@ body {
 
 /* Style the image to be a circle and center it */
 .circle-image {
-    width: 200px; /* Adjust based on your image size and preference */
-    height: 200px; /* Adjust to match the width for a perfect circle */
+    width: 100px; /* Match your image's dimensions */
+    height: 100px; /* Match your image's dimensions to maintain aspect ratio */
     border-radius: 50%; /* This makes the square image appear as a circle */
-    object-fit: cover; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
 }
