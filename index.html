@@ -3,11 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quadrant Color Scheme Site</title>
+  <title>Creative Quadrant</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.4/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .quadrant {
+      height: 50vh;
+      width: 50vw;
+      transition: all 0.5s;
+    }
+
+    .quadrant:hover {
+      transform: scale(1.1);
+    }
+
+    #top-left { background-color: #FF0000; }
+    #top-right { background-color: #FFA500; }
+    #bottom-left { background-color: #008000; }
+    #bottom-right { background-color: #0000FF; }
+  </style>
 </head>
-<body class="bg-white">
-  <div class="h-screen flex justify-center items-center">
+<body class="flex flex-wrap">
+  <div id="top-left" class="quadrant fixed top-0 left-0"></div>
+  <div id="top-right" class="quadrant fixed top-0 right-0"></div>
+  <div id="bottom-left" class="quadrant fixed bottom-0 left-0"></div>
+  <div id="bottom-right" class="quadrant fixed bottom-0 right-0"></div>
+
+  <div class="absolute inset-0 flex justify-center items-center">
     <img src="./cuh.png" alt="Stylized face" class="max-w-xs md:max-w-lg">
   </div>
 </body>
