@@ -1,88 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quema o no Quema Cuh???</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.4/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: black;
-    }
-
-    .circle-image {
-      background-image: url('./cuh.png');
-      background-size: cover;
-      background-position: center;
-      border-radius: 50%;
-      width: 10%;
-      padding-top: 10%; /* Same as width to maintain aspect ratio */
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    .banner-text {
-      position: absolute;
-      top: calc(50% - 4rem); /* Shift up from the center */
-      left: 50%;
-      transform: translateX(-50%);
-      color: white;
-      font-size: 2rem;
-      text-align: center;
-      font-weight: bold;
-      z-index: 10;
-    }
-
-    .quadrant {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      width: 15vw;
-      transition: all 0.5s;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;
-    }
-
-    .quadrant-text {
-      color: white;
-      font-size: 1rem;
-      text-align: center;
-      transform: rotate(-90deg);
-      white-space: nowrap;
-      transition: opacity 0.5s ease;
-    }
-
-    #left-panel {
-      left: 0;
-    }
-
-    #right-panel {
-      right: 0;
-    }
-
-    .quadrant:hover .quadrant-text {
-  opacity: 1;
-}
-
-@media (max-width: 768px) {
-  .circle-image {
-    width: 30%;
-    padding-top: 30%;
-  }
-  
-  .banner-text {
-    font-size: 1.5rem;
-  }
-
-  .quadrant {
-    width: 30vw;
-  }
-
-  .quadrant-text {
-    font-size: 0.8rem;
-  }
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Circle Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="your-image.jpg" alt="Centered Circle" class="circle-image">
+    </div>
+</body>
+</html>
