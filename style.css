@@ -1,24 +1,22 @@
 body, html {
     height: 100%;
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    background-color: black;
 }
 
 .container {
-    text-align: center; /* Center everything in the container */
-    flex-grow: 1; /* Allows the container to grow and fill available space, pushing the footer down */
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
+/* Style for the image */
 .circle-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: block; /* Ensure the image is a block-level element to allow margin auto to center it */
-    margin: 20px auto; /* Center the image horizontally and add some margin */
+    /* Add styles if needed, e.g., to ensure the image is not too large on the screen */
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes the image circular if it's square */
 }
 
 footer {
