@@ -14,20 +14,21 @@ body {
     min-height: 100vh; /* Use min-height to cover at least the full viewport height */
 }
 
-/* Style the container for additional control if needed */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center; /* Center everything in the container */
 }
 
-/* Style the image to be a circle and center it */
 .circle-image {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     display: block; /* Ensure the image is a block-level element to allow margin auto to center it */
     margin: 0 auto; /* Center the image horizontally */
+}
+
+
+.links {
+    margin-top: 10px; /* Add some space between the image and the links */
 }
 
 .links a {
@@ -37,13 +38,38 @@ body {
     margin: 10px 0; /* Space out the links */
 }
 
-.links a:hover {
-    text-decoration: underline; /* Underline on hover */
+.links a {
+    color: white; /* Ensure text color is white */
+    text-decoration: none; /* No underline */
 }
 
 .container {
     text-align: center; /* Center everything in the container */
 }
 
+.links span {
+    margin: 0 5px; /* Space out the links */
+    display: inline-block; /* Display links inline */
+}
+
+
+.links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
 
 
