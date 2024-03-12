@@ -23,26 +23,27 @@ body {
 
 /* Style the image to be a circle and center it */
 .circle-image {
-    width: 100px; /* Match your image's dimensions */
-    height: 100px; /* Match your image's dimensions to maintain aspect ratio */
-    border-radius: 50%; /* This makes the square image appear as a circle */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
-}
-
-.links {
-    text-align: center; /* Center-align the text */
-    margin-top: 20px; /* Add some space between the image and the links */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block; /* Ensure the image is a block-level element to allow margin auto to center it */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 .links a {
-    display: block; /* Make each link a block-level element */
-    color: #ffffff; /* Set the text color to white */
-    text-decoration: none; /* Remove underline from links */
-    margin: 10px 0; /* Add some space above and below each link */
-    font-size: 16px; /* Set the font size */
+    display: block; /* Display links as block-level elements */
+    color: white; /* Ensure text color is white */
+    text-decoration: none; /* No underline */
+    margin: 10px 0; /* Space out the links */
 }
 
 .links a:hover {
-    text-decoration: underline; /* Add underline on hover for better UX */
+    text-decoration: underline; /* Underline on hover */
 }
+
+.container {
+    text-align: center; /* Center everything in the container */
+}
+
+
 
