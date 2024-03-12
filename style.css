@@ -35,12 +35,14 @@ body {
 }
 
 .links a {
+    display: block; /* Make each link a block-level element */
     color: #ffffff; /* Set the text color to white */
     text-decoration: none; /* Remove underline from links */
-    margin: 0 10px; /* Add some space around each link */
+    margin: 10px 0; /* Add some space above and below each link */
     font-size: 16px; /* Set the font size */
 }
 
 .links a:hover {
     text-decoration: underline; /* Add underline on hover for better UX */
 }
+
