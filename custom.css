@@ -1,2 +1,25 @@
-/* custom.css */
-/* Custom styles if needed, though we are using Tailwind CSS */
+/* Set the background of the body to black */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the body take up the full viewport height */
+}
+
+/* Style the container for additional control if needed */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the image to be a circle and center it */
+.circle-image {
+    width: 200px; /* Adjust based on your image size and preference */
+    height: 200px; /* Adjust to match the width for a perfect circle */
+    border-radius: 50%; /* This makes the square image appear as a circle */
+    object-fit: cover; /* This ensures the image covers the area without stretching. Adjust as needed */
+}
