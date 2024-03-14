@@ -3,9 +3,14 @@
 
 <br>
 
+*[Telegram](https://t.me/CuhMeme/1) | [GK9GGbPbEX8NXZzJJEgFZt47uPLU4hzWbvh51xSzTmhA](https://solscan.io/token/GK9GGbPbEX8NXZzJJEgFZt47uPLU4hzWbvh51xSzTmhA#holders) | [Website](https://cuhmeme.github.io/)*
+
+<br>
+<br>
+
 ![cuh_100x100](https://github.com/cuhmeme/cuhmeme.github.io/assets/163156080/492c9bd3-84f4-4ca7-a9fa-568c84f156e0)
 
-*[Telegram](https://t.me/CuhMeme/1) | [GK9GGbPbEX8NXZzJJEgFZt47uPLU4hzWbvh51xSzTmhA](https://solscan.io/token/GK9GGbPbEX8NXZzJJEgFZt47uPLU4hzWbvh51xSzTmhA#holders) | [Website](https://cuhmeme.github.io/)*
+
 
 <br>
 
