@@ -4,7 +4,7 @@
 
 ![cuh_100x100](https://github.com/cuhmeme/cuhmeme.github.io/assets/163156080/492c9bd3-84f4-4ca7-a9fa-568c84f156e0)
 
-# **Fixed Supply** of **956 Million CUH**<br> 
+# **Fixed Supply** of **956M CUH**<br> 
 *Ensures rarity and value preservation*
 
 ## **Fair Launch**<br> 
